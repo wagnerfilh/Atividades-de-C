@@ -1,4 +1,4 @@
-/*5. (UFU) FaÁa um programa que receba do usu·rio um arquivo texto e um
+/*5. (UFU) Fa√ßa um programa que receba do usu√°rio um arquivo texto e um
 caractere. Mostre na tela quantas vezes aquele caractere ocorre dentro do
 arquivo.*/
 #include <stdio.h>
@@ -14,7 +14,6 @@ int main(){
 	int count = 0;
 	char *caract[1];
 	char frases[100];
-	char frases2[100];
 	fscanf(texto, "%c", caract);
 	fgets(frases, 100, texto);
 	printf("%s", frases);
@@ -23,9 +22,9 @@ int main(){
 			if(*caract== frases[i]){
 				count++;
 			}
-			//Caso queira tanto mai˙sculas quanto min˙sculas È sÛ ativar o "if" abaixo e desativar o de cima.
-			//Como diz "caractere" na quest„o eu botei somente a vers„o que for considerada no arquivo, mas
-			//eu fiz a vers„o mais completa tambÈm...
+			//Caso queira tanto mai√∫sculas quanto min√∫sculas √© s√≥ ativar o "if" abaixo e desativar o de cima.
+			//Como diz "caractere" na quest√£o eu botei somente a vers√£o que for considerada no arquivo, mas
+			//eu fiz a vers√£o mais completa tamb√©m...
 			/*if(tolower(*caract)== frases[i] || toupper(*caract)==frases[i]){
 				count++;
 			}*/
