@@ -24,7 +24,7 @@ int main(){
 			}
 			//Caso queira tanto maiúsculas quanto minúsculas é só ativar o "if" abaixo e desativar o de cima.
 			//Como diz "caractere" na questão eu botei somente a versão que for considerada no arquivo, mas
-			//eu fiz a versão mais completa também...
+			//eu fiz a versão mais completa também... 
 			/*if(tolower(*caract)== frases[i] || toupper(*caract)==frases[i]){
 				count++;
 			}*/
