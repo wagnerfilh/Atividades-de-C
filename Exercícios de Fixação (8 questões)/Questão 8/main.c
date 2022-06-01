@@ -1,18 +1,15 @@
-//###############################################################################################
-//AINDA TERMINANDO
-//###############################################################################################
-/*8. (Linhares, 2016) Uma loja possui 4 filiais, cada uma com um código de 1 a 4.
+/*8. (Linhares, 2016) Uma loja possui 4 filiais, cada uma com um cÃ³digo de 1 a 4.
 Um arquivo contendo todas as vendas feitas durante o dia nas quatro filiais
-é gerado a partir de uma planilha, sendo que cada linha do arquivo contém
-o número da filial e o valor de uma venda efetuada, separados por tab. Ex.:
+Ã© gerado a partir de uma planilha, sendo que cada linha do arquivo contÃ©m
+o nÃºmero da filial e o valor de uma venda efetuada, separados por tab. Ex.:
 1 1920.80
 1 41.50
 3 89.90
 4 109.50
 No exemplo acima a filial 1 fez 2 vendas, a primeira totalizando R$1920,80 e
 a segunda R$ 41,50. A filial 3 fez uma venda de R$89,90, e a filial 4 fez uma
-venda de R$109,90. Faça um programa que leia este arquivo e informe, ao
-final, o total e o valor médio das vendas de cada filial.*/
+venda de R$109,90. FaÃ§a um programa que leia este arquivo e informe, ao
+final, o total e o valor mÃ©dio das vendas de cada filial.*/
 #include <stdio.h>
 #include <string.h>
 int main(){
