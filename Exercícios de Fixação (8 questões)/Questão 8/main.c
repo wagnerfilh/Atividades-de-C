@@ -1,3 +1,4 @@
+//################### INCOMPLETA ###############################################
 /*8. (Linhares, 2016) Uma loja possui 4 filiais, cada uma com um código de 1 a 4.
 Um arquivo contendo todas as vendas feitas durante o dia nas quatro filiais
 é gerado a partir de uma planilha, sendo que cada linha do arquivo contém
